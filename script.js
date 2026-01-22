@@ -1,1 +1,2 @@
 document.body.innerHTML = '<h1>ello from JavaScipt</h1>'
+console.log('Test 2')
