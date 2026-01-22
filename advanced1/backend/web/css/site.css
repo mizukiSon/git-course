@@ -1,0 +1,185 @@
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.navbar {
+    background-color: #00FA9A!important;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th,
+.grid-view td:last-child {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+body {
+    color: #2c3e50 !important;
+    font-family: 'Arial', sans-serif !important;
+    line-height: 1.6 !important;
+    margin: 0;
+    background: #98FB98 ;
+    line-height: 1.6;
+}
+ img {
+    width: 300px;
+    height: 200px;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: #e74c3c !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1) !important;
+    margin-bottom: 20px !important;
+}
+
+h1 {
+    color: #2c3e50 !important;
+    font-size: 2.2rem !important;
+    margin-bottom: 1.5rem !important;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #74b9ff;
+    display: inline-block;
+}
+
+h2 {
+    color: #3498db !important;
+    border-left: 5px solid #3498db !important;
+    padding-left: 15px !important;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+p {
+    color: black !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8 !important;
+    margin-bottom: 1.2rem !important;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    background: #3CB371 !important;
+}
+
+/* Заголовок таблицы */
+.table thead {
+    background: #3CB371 !important;
+}
+
+.table th {
+    background: transparent !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 16px 12px !important;
+    text-align: center !important;
+    border: none !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Тело таблицы */
+.table tbody tr {
+    transition: all 0.3s ease;
+}
+
+/* Чередование цветов строк */
+.table tbody tr:nth-child(odd) {
+    background: #00FF7F !important;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #98FB98 !important;
+}
+
+/* Ячейки таблицы */
+.table td {
+    padding: 14px 12px !important;
+    text-align: center !important;
+    border: none !important;
+    color: white !important;
+    background: transparent !important;
+}
